@@ -10,6 +10,7 @@ ADD . /app
 
 # Install dependencies
 RUN pip install -r requirements.txt
+RUN pip install plotly --upgrade
 
 # copying all files over
 COPY . /app
